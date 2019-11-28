@@ -12,4 +12,4 @@ app.use(bodyParser.urlencoded({ extended: false }));
 
 require('./controllers/authController')(app);
 
-app.listen(8000);
+app.listen(process.env.PORT || 8000);
