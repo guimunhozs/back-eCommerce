@@ -10,6 +10,8 @@
   },
   "devDependencies": {},
   "scripts": {
+    "project": "node src/index",
+    "database": "node src/database/seed",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
