@@ -39,7 +39,7 @@ Product.find({}).deleteMany()
         'https://static3.tcdn.com.br/img/img_prod/627709/cobertor_casal_manta_de_microfibra_01_peca_toque_aveludado_tabaco_25533_1_20190717103244.jpg'
       ]
     }, {
-      name: 'Edetron Colorido Solteiro',
+      name: 'Edredom Colorido Solteiro',
       category: 'Edredom',
       price: 280,
       discount: 2,
@@ -50,7 +50,7 @@ Product.find({}).deleteMany()
         'https://http2.mlstatic.com/edredom-solteiro-dupla-face-malha-manta-silicone-liverpool-D_NQ_NP_424711-MLB20626527063_032016-F.jpg'
       ]
     }, {
-      name: 'Edetron Colorido Queen',
+      name: 'Edredom Colorido Queen',
       category: 'Edredom',
       price: 350,
       discount: 7,
@@ -61,7 +61,7 @@ Product.find({}).deleteMany()
         'https://http2.mlstatic.com/edredom-solteiro-dupla-face-malha-manta-silicone-liverpool-D_NQ_NP_424711-MLB20626527063_032016-F.jpg'
       ]
     }, {
-      name: 'Edetron Colorido King',
+      name: 'Edredom Colorido King',
       category: 'Edredom',
       price: 390,
       discount: 7,
