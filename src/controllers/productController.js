@@ -21,7 +21,7 @@ router.get('/', async (req, res) => {
 
   var query = name?{ name: new RegExp('.*'+name+'.*', "i")} : {};
   Product.find(query)
-    .sort( { _id: -1 } )
+    .sort( { name : 1} )
     .skip((page - 1) * limit)
     .limit(limit)
     .exec((err, doc) => {
