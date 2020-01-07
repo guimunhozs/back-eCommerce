@@ -7,14 +7,18 @@
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "mongoose": "^5.7.12"
+    "mongoose": "^5.7.12",
+    "nyc": "^15.0.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "mocha": "^7.0.0",
+    "supertest": "^4.0.2"
+  },
   "scripts": {
     "start": "node src/index",
     "project": "node src/index",
     "database": "node src/database/seed",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha ./src/controllers/product-controller.spec.js"
   },
   "author": "",
   "license": "ISC",

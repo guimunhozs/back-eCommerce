@@ -5,7 +5,7 @@ const Product = require('../models/product');
 const router = express.Router();
 
 router.get('/', async (req, res) => {
-  var page = parseInt(req.query.page) || 0;
+  var page = parseInt(req.query.page) || 1;
   var limit = parseInt(req.query.limit) || 16;
   var name = req.query.name || req.query.category;
 
