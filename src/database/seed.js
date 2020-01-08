@@ -2,9 +2,5 @@
 const { generateData } = require('./data.js');
 const Product = require('../models/Product');
 
-Product.find({}).deleteMany()
-  .then( () => {
-      Product.create(
-        generateData()
-      );
-    });
+await Product.find({}).deleteMany();
+await Product.create(generateData());
